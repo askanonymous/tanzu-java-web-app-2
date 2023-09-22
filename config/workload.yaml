@@ -21,3 +21,4 @@ spec:
       url: https://github.com/askanonymous/tanzu-java-web-app-2
       ref:
         branch: main
+

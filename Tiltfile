@@ -20,3 +20,4 @@ k8s_resource('tanzu-java-web-app-2', port_forwards=["8080:8080"],
 
 # This is added by Abhishek to deploy to running cluster.
 allow_k8s_contexts('iam-root-account@tap-on-aws.ap-south-1.eksctl.io')
+

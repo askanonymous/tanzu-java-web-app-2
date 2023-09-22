@@ -22,3 +22,4 @@ k8s_resource('tanzu-java-web-app-2', port_forwards=["8080:8080"],
 allow_k8s_contexts('iam-root-account@tap-on-aws.ap-south-1.eksctl.io')
 
 
+

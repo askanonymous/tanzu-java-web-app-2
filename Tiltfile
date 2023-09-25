@@ -19,6 +19,6 @@ k8s_resource('tanzu-java-web-app-2', port_forwards=["8080:8080"],
             extra_pod_selectors=[{'carto.run/workload-name': 'tanzu-java-web-app-2', 'app.kubernetes.io/component': 'run'}])
 
 # This is added by Abhishek to deploy to running cluster.
-allow_k8s_contexts('iam-root-account@tap-on-aws.ap-south-1.eksctl.io')
+allow_k8s_contexts('iam-root-account@tap-on-aws.ap-southeast-1.eksctl.io')
 
 
